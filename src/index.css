@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+#subject {
+  @apply w-[100%] lg:w-[50%] bg-white  text-black;
+}
+#subject {
+ 
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+
+  box-sizing: border-box;
+ 
+}
+#fullName {
+  @apply  w-[100%] lg:w-[50%] bg-white  text-black;
+}
+#fullName {
+  
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+
+  box-sizing: border-box;
+  
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+#lastName {
+  @apply  w-[100%] lg:w-[50%] bg-white  text-black;
+}
+#lastName {
+ 
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+
+  box-sizing: border-box;
+  
+}
+
+input[type="submit"] {
+  color: black;
+  padding: 8px 8px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  border: 2px solid #000;
+  margin-top: 20px !important;
+  border-radius: 44px;
+}
+
+
+.textShadow {
+  textshadow: " 4px 4px #30dada";
+}
+#texts {
+  @apply bg-white dark:bg-[#252525] dark:text-[#FFF];
+}
+
+.down-arrow {
+  animation: jumpInfinite 1.5s infinite;
+}
+
+
+.error {
+  color: #bf1650;
+  font-weight: bold;
+}
+
+.error::before {
+  display: inline;
+  content: "⚠ ";
+}
+
+
+
+.border {
+  @apply border-[4px] border-[#17A6DB] dark:border-[#30dada];
+}
+
